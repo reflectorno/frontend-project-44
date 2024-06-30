@@ -2,3 +2,9 @@
 
 [![Actions Status](https://github.com/reflectorno/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/reflectorno/frontend-project-44/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/e21afc1c5b175a7bc556/maintainability)](https://codeclimate.com/github/reflectorno/frontend-project-44/maintainability)
+
+https://asciinema.org/a/666214
+https://asciinema.org/a/666215
+https://asciinema.org/a/666216
+https://asciinema.org/a/666220
+https://asciinema.org/a/666221
