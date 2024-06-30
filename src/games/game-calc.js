@@ -1,7 +1,6 @@
 import gameLogic from '../index.js';
 
-const getRandomNumber = (min = 1, max = 10) =>
-  Math.floor(Math.random() * (max - min + 1)) + min;
+const getRandomNumber = (min = 1, max = 10) => Math.floor(Math.random() * (max - min + 1)) + min;
 const task = 'What is the result of the expression?';
 
 const calcExp = (operand1, operand2, operator) => {
@@ -28,8 +27,8 @@ const getGame = () => {
   const operand2 = getRandomNumber();
   const operator = getOperator();
   const question = `${operand1} ${operator} ${operand2}`;
-  const answer = String(calcExp(operand1, operand2, operator));
-  return [question, answer];
+  const correctAnswer = String(calcExp(operand1, operand2, operator));
+  return [question, correctAnswer];
 };
 
 const gameCalc = () => {
